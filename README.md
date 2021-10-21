@@ -11,13 +11,13 @@
 
 ## Computación 2021
 
-**Asignatura**: <!-- REEMPLAZA este comentario por el nombre de la asignatura -->
+**Asignatura**: Administracion y gestion de base de datos
 
-**Nombre TP**: <!-- REEMPLAZA este comentario por el nombre del TP -->
+**Nombre TP**: Software Factory
 
-**Apellido y nombre Alumno**: <!-- REEMPLAZA este comentario por tu apellido y nombre -->
+**Apellido y nombre Alumno**: Medina Lucas
 
-**Curso**: <!-- REEMPLAZA este comentario por tu curso -->
+**Curso**: 5to 8va 2021
 
 # Título del Proyecto
 
@@ -26,9 +26,8 @@ _Acá va un párrafo que describa lo que es el proyecto._
 ## Comenzando 🚀
 
 Clonar el repositorio github, desde Github Desktop o ejecutar en la terminal o CMD:
-<!-- cambia el link de abajo al de tu repositorio y BORRA ESTE COMENTARIO -->
 ```
-git clone https://github.com/ET12DE1Computacion/simpleTemplateCSharp
+git clone https://github.com/LucasMedina04/5to8va2021-SoftwareFactory
 ```
 
 ### Pre-requisitos 📋
