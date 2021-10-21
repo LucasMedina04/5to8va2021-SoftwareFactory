@@ -24,4 +24,3 @@ jobs:
       working-directory: src/
     - name: Build
       run: dotnet build --configuration Release --no-restore
-      working-directory: src/
