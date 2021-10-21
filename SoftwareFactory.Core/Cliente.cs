@@ -1,9 +1,5 @@
 ﻿using System;
 
 namespace SoftwareFactory.Core
-{
-    public class Cliente
-    {
-        
-    }
+{    public record Cliente (uint CUIT, string RazonSocial);
 }
