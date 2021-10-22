@@ -1,8 +1,6 @@
-<!-- Completa abajo cambiando ET12DE1Computacion a tu user|organización y template a tu repo, te recomiendo usar el Find & Replace de tu editor -->
 ![main build.NET5](https://github.com/LucasMedina04/5to8va2021-SoftwareFactory/workflows/main-build.NET5/badge.svg?branch=main) ![main test.NET5](https://github.com/LucasMedina04/5to8va2021-SoftwareFactory/workflows/main-test.NET5/badge.svg?branch=main)
 ![dev build.NET5](https://github.com/LucasMedina04/5to8va2021-SoftwareFactory/workflows/dev-build.NET5/badge.svg?branch=dev) ![dev test.NET5](https://github.com/LucasMedina04/5to8va2021-SoftwareFactory/workflows/dev-test.NET5/badge.svg?branch=dev)
 [![Abrir en Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/LucasMedina04/5to8va2021-SoftwareFactory)
-<!-- Borra este comentario y linea después haber cambiado arriba las ocurrencias de tu usuario/repo -->
 
 <h1 align="center">E.T. Nº12 D.E. 1º "Libertador Gral. José de San Martín"</h1>
 <p align="center">
@@ -52,7 +50,6 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Max Power** - *Desarrollo* - [Maxpower](https://github.com/maxpower)
 * **Cosme Fulanito** - *Documentación* - [Cosmefulanito](#Cosmefulanito)
 
 ## Licencia 📄
