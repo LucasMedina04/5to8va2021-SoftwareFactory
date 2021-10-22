@@ -15,7 +15,7 @@
 
 **Nombre TP**: Software Factory
 
-**Apellido y nombre Alumno**: Medina Lucas
+**Apellido y nombre Alumno**: Medina Lucas Ezequiel
 
 **Curso**: 5to 8va 2021
 
