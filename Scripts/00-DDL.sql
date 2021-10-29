@@ -1,5 +1,5 @@
 DROP DATABASE IF EXISTS SoftwareFactory;
-CREATE DATABASE SoftwareFactory;
+CREATE DATABASE SoftwareFactory CHARACTER SET UTF8;
 USE SoftwareFactory;
 
 SELECT 'Creando Tablas' AS 'Estado';

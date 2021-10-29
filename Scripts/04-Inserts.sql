@@ -1,6 +1,18 @@
+USE SoftwareFactory;
+SELECT 'Vaciando Tablas' AS 'Estado';
+SET FOREIGN_KEY_CHECKS=0;
+	TRUNCATE TABLE Tarea;
+	TRUNCATE TABLE Requerimiento;
+	TRUNCATE TABLE Proyecto;
+	TRUNCATE TABLE Experiencia;
+	TRUNCATE TABLE Tecnologia;
+	TRUNCATE TABLE Empleado;
+	TRUNCATE TABLE Cliente;
+SET FOREIGN_KEY_CHECKS=1;
+
+SET NAMES utf8;
 START TRANSACTION;
-    SET NAMES 'latin1';
-    SELECT 'Realizando los inserts' AS 'Estado';
+    SELECT 'Completando filas' AS 'Estado';
 
     INSERT INTO Cliente (cuit, razonSocial)
         VALUES          (100, 'Unicornio Azul'),

@@ -7,6 +7,7 @@ namespace SoftwareFactory.Test
     public class TestCliente
     {
         public Cliente Cliente { get; set; }
+        
         public TestCliente()
         {
             Cliente = new Cliente(1000, "Et12");
