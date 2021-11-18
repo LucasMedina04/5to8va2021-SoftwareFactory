@@ -15,8 +15,8 @@ namespace SoftwareFactory.Test
         [Fact]
         public void AsignacionCliente()
         {
-            Assert.Equal((uint)1000, Cliente.CUIT);
-            Assert.Equal("Et12", Cliente.RazonSocial);
+            Assert.Equal(1000, Cliente.cuit);
+            Assert.Equal("Et12", Cliente.razonSocial);
         }
     }
 }

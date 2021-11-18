@@ -2,5 +2,5 @@
 
 namespace SoftwareFactory.Core
 {    
-    public record Cliente (uint CUIT, string RazonSocial);
+    public record Cliente (int cuit, string razonSocial);
 }
