@@ -1,4 +1,7 @@
 ﻿using System;
+using et12.edu.ar.AGBD.Ado;
+using SoftwareFactory.ADO;
+using SoftwareFactory.Core;
 
 namespace Admin.Consola
 {
@@ -6,7 +9,8 @@ namespace Admin.Consola
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var adoAGBD = FactoryAdoAGBD.GetAdoMySQL("appSettings.json", "test");
+            
         }
     }
 }

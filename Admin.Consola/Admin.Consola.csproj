@@ -11,6 +11,10 @@
     <ProjectReference Include="..\SoftwareFactory.ADOMySql\SoftwareFactory.ADOMySql.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="et12.edu.ar.AGBD-Ado" Version="0.10.0-aplha" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>

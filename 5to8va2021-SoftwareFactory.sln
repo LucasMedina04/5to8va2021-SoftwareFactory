@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareFactory.Core", "SoftwareFactory.Core\SoftwareFactory.Core.csproj", "{084D8BF4-6267-40D1-AE30-05B5D32AF590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareFactory.Core", "SoftwareFactory.Core\SoftwareFactory.Core.csproj", "{084D8BF4-6267-40D1-AE30-05B5D32AF590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareFactory.Test", "SoftwareFactory.Test\SoftwareFactory.Test.csproj", "{3F90A811-34C4-4BFD-804C-F0511813E526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareFactory.Test", "SoftwareFactory.Test\SoftwareFactory.Test.csproj", "{3F90A811-34C4-4BFD-804C-F0511813E526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareFactory.ADOMySql", "SoftwareFactory.ADOMySql\SoftwareFactory.ADOMySql.csproj", "{A6898F7B-8E40-440C-8BD2-5C9684039324}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareFactory.ADOMySql", "SoftwareFactory.ADOMySql\SoftwareFactory.ADOMySql.csproj", "{A6898F7B-8E40-440C-8BD2-5C9684039324}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Consola", "Admin.Consola\Admin.Consola.csproj", "{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{084D8BF4-6267-40D1-AE30-05B5D32AF590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +57,23 @@ Global
 		{A6898F7B-8E40-440C-8BD2-5C9684039324}.Release|x64.Build.0 = Release|Any CPU
 		{A6898F7B-8E40-440C-8BD2-5C9684039324}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6898F7B-8E40-440C-8BD2-5C9684039324}.Release|x86.Build.0 = Release|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Debug|x64.Build.0 = Debug|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Debug|x86.Build.0 = Debug|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Release|x64.ActiveCfg = Release|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Release|x64.Build.0 = Release|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Release|x86.ActiveCfg = Release|Any CPU
+		{B765E7E9-F9C9-4BFA-ACEB-C1551B502CE1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE7FA9D1-7EAD-4426-97C2-270BBF8A5E2D}
 	EndGlobalSection
 EndGlobal
