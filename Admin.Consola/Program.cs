@@ -22,16 +22,18 @@ namespace Admin.Consola
                 switch (Opcion)
                 {
                     case 1:
-                        MenuCliente.Iniciar(Ado);
+                    MenuCliente.Iniciar(Ado);
                     break;
-
+                    
                     default:
+                    if (Opcion != 0)
+                    {
                         Console.WriteLine("Ingrese un valor entre 0 y (CantidadClases)");
                         Console.ReadKey();
+                    }
                     break;
                 }
-
-            } while ();
+            } while (Opcion != 0);
         }
     }
 }
