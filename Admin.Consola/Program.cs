@@ -1,7 +1,6 @@
 ﻿using System;
 using et12.edu.ar.AGBD.Ado;
 using SoftwareFactory.ADOMySql;
-using SoftwareFactory.Core;
 
 namespace Admin.Consola
 {
