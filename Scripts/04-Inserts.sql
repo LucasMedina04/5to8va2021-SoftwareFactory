@@ -1,4 +1,4 @@
-USE SoftwareFactory;
+USE softwarefactory;
 SELECT 'Vaciando Tablas' AS 'Estado';
 SET FOREIGN_KEY_CHECKS=0;
 	TRUNCATE TABLE Tarea;
@@ -38,8 +38,9 @@ START TRANSACTION;
                             (7, 'DBA MySQL', 14000);
 
     INSERT INTO Experiencia (cuil, idTecnologia, calificacion)
-        VALUES              (1000, 1, 2),
+        VALUES              (1000, 1, 8),
                             (1000, 6, 7),
+                            (1000, 5, 7),
                             (1100, 1, 5),
                             (1100, 6, 6),
                             (1100, 5, 4),
@@ -58,8 +59,8 @@ START TRANSACTION;
                             (1500, 5, 6),
                             (1500, 6, 6),
                             (1500, 7, 4),
-                            (1600, 1, 5),
-                            (1600, 2, 3),
+                            (1600, 1, 6),
+                            (1600, 2, 4),
                             (1600, 3, 4),
                             (1600, 4, 8),
                             (1600, 5, 5),

@@ -1,6 +1,5 @@
+use softwarefactory;
 delimiter $$
-
-/**/
 SELECT 'Creando Triggers' AS 'Estado';
 drop trigger if exists aftInsTarea;
 create trigger aftInsTarea after insert on Tarea
@@ -13,13 +12,13 @@ begin
                 and cuil = new.cuil
                 and calificacion < complejidad)) then
         signal sqlstate '45000'
-        set MESSAGE_TEXT = CONCAT("Calificación de insuficiente");
+        set MESSAGE_TEXT = "Calificación de insuficiente";
     end if;
 end $$
 
 /**/
 
-drop trigger if exists aftInsEmpleado
+drop trigger if exists aftInsEmpleado;
 create trigger aftInsEmpleado after insert on empleado
 for each row
 begin
