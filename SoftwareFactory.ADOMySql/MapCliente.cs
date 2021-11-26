@@ -4,6 +4,7 @@ using SoftwareFactory.Core;
 using et12.edu.ar.AGBD.Mapeadores;
 using et12.edu.ar.AGBD.Ado;
 using System.Data;
+using System.Linq;
 
 namespace SoftwareFactory.ADOMySql
 {
@@ -38,6 +39,9 @@ namespace SoftwareFactory.ADOMySql
               .AgregarParametro();
         }
 
-        public List<Cliente> ObtenerClientes() => ColeccionDesdeTabla();
+        public List<Cliente> ObtenerClientes()
+            =>  ColeccionDesdeTabla()
+               .OrderBy(c=>c.cuit)
+               .ToList();
     }
 }
